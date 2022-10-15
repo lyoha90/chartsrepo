@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+dependencies:
+- - condition: mysql.enabled
+  name: mysql
+  repository: http://charts.bitnami.com/bitnami
+  version: '>= 8.6.6'
+description: A Helm chart for Kubernetes
+name: 3chart
+type: application
+version: 0.1.0
+
+...
+files:
+  3chart-0.1.0.tgz: sha256:4094c1b79e58dfc64293d7212f411a8d371d4e94e863cb0cf547cb68448d4a59
+-----BEGIN PGP SIGNATURE-----
+
+wsBcBAEBCgAQBQJjD3JPCRCU9IHgVWC5AQAAHfQIAEt8XcXDCSQMytFS4EYRFyHh
+TY7pF+FB8HruRfQWoPtyZh03DTgiGlIyDTNKRvI4taMXpd8HPrBZGABCbvpDU4kZ
+UTAGX0V8ZhwLSYjxJ4tI/ahnS8cXV06GufVJTR+UNHmc75qqLOuvxd07egCziNFO
+zX9q/sdoP0VU64SOHrC8F4Tnho6LZj8mBUZSFyiYLeN46ubFDR8SJxqGElLXIzIU
+Cv2vWJNamIias6D3WQv+vBv9a95yquBzVQBjOP+7UX2qXb7ON48YjMxWQ3YYUHtp
+o2Z3ol4pVYDjEUiFWXc+vkHjN4eOzocmvR+nn+hxyY1v8yCT4x3H/SdG8Fdua+4=
+=zfG7
+-----END PGP SIGNATURE-----

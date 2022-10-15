@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+dependencies:
+- - name: tomcat
+  repository: https://charts.bitnami.com/bitnami
+  version: '>= 10.0.23'
+description: A Helm chart for Kubernetes
+name: 4chart
+type: application
+version: 0.1.0
+
+...
+files:
+  4chart-0.1.0.tgz: sha256:0c3909cabde0a694864ea24dde0d5c0492f3e7ddb98ce6db665bd2aa376817b8
+-----BEGIN PGP SIGNATURE-----
+
+wsBcBAEBCgAQBQJjD4xUCRC/Wos/EiaWngAACV4IAHzf/kTpWulVAV1Aym9SN1gr
+zkNN/e9XmCmNef0A4FDZiVIAgBVpeDmuQrP4BuwO6GrgiVJzTtM4y+XM+PosmpmP
+gAVs966bU8OzX9IPy2zdzFSoo+RFz/902P8KMKsubQkA7DWWoXZC8lJyCl+fu0mg
+aCun49d/eqCkvrihgOuhhFCHR+/wsOi+7lLXAlKOeqxVODm+EA9AEXUzmUcvd8ky
+2ihvZnhZjAlAoH6/k/lxbfdo+hDopkPXizbxdrbhBzJOg+SPxDJMkkWvJ7R6GOVG
+T73ZaFbbJ/00bfh/BXxaGMB31zRMUCQmxAQ+27v5f7hBcVXcblpxVLSQg1onyc8=
+=ziA8
+-----END PGP SIGNATURE-----
